@@ -19,6 +19,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		
 
 		<script src="js/jquery-1.11.1.min.js"></script>
+		<script type='text/javascript' src='js/jquery-scrollspy.js'></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/scroll.js"></script>
 
@@ -62,6 +63,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				
 			});
 		</script>
+		
+		
+
+
 	</head>
 	<body>
 
@@ -83,7 +88,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 							<!-- Brand and Nav -->
-							<div class="col-xs-12  col-sm-8 col-md-8 col-lg-9 col-xl-9">
+							<div  class="col-xs-12  col-sm-8 col-md-8 col-lg-9 col-xl-9 ">
 
 								<!-- Brand Type --> 
 								<div class="eis-brand">
@@ -95,8 +100,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 								<!-- Navigation -->
-							    <nav class="navbar navbar-default eis-nav-container">
-							        <div >
+							    <nav id="nav" class="navbar navbar-default">
+							        <div class="container" >
 							            <!-- Brand and toggle get grouped for better mobile display -->
 							            <div class="navbar-header page-scroll">
 							                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#eis-nav">
@@ -111,7 +116,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 							            <!-- Collect the nav links, forms, and other content for toggling -->
 							            <div class="collapse navbar-collapse" id="eis-nav">
-							                <ul class="nav navbar-nav">
+							                <ul  class="nav navbar-nav">
 							                    <li class="hidden">
 							                        <a href="#page-top"><span class="sr-only">Toggle navigation</span></a>
 							                    </li>
@@ -139,7 +144,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							        </div>
 							        <!-- /.container-fluid -->
 							    </nav>
-
+								<script type="text/javascript">
+									// afix navbar to top after scroll
+								    $(document).ready(function() {
+								        $('#nav').scrollspy({
+								            min: $('#nav').offset().top,
+								            onEnter: function(element, position) {
+								                $("#nav").addClass('fixed');
+								            },
+								            onLeave: function(element, position) {
+								                $("#nav").removeClass('fixed');
+								            }
+								        });
+								    });
+								</script>
 								
 									
 								
@@ -975,5 +993,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 
 	</body>
+
 
 </html>		
