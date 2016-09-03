@@ -50,7 +50,7 @@ body a{
 	background: -moz-linear-gradient(top,  rgba(239,98,101,.25) 0%, #ffffff 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  rgba(239,98,101,.25) 0%, #ffffff 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  rgba(239,98,101,.25) 0%, #ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee6265', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
@@ -87,7 +87,10 @@ body a{
 }
 .eis-nav-container {
 	visibility: hidden;
+	padding: 10px;
+
 }
+
 .navbar-nav{
       margin: 0 auto;
       display: table;
