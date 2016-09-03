@@ -1,0 +1,47 @@
+/*
+Author: Colby Jarrell
+Author URL: https://colbyjcreative.com
+
+*/
+
+/*Colors
+Red: #a12026
+Pink: #ee6265
+Yellow: #f8ed70
+Black: #0c0d0d
+Te'a Skin: #fccf9c
+Client Skin: #ffebbe*/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+  .navbar-nav{
+      margin: 0 auto;
+      display: table;
+      table-layout: fixed;
+      float:none;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+    .branding{
+
+  }
+  .logo {
+
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+   .branding{
+
+  }
+  .logo {
+
+  }
+}
