@@ -17,18 +17,38 @@ Client Skin: #ffebbe*/
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
+  
+  .header-transparency{
+    max-height: 25%;
+  }
+  .header-container{
+    padding-top: 0px;
+  }
+  .brand-type{
+    max-width: 90%;
+
+    margin: 0px;
+  }
   .eis-brand {
 
     padding-top: 20px;
     padding-bottom: 25px;
     padding-left: 0px;
+    padding: 0px;
     visibility: hidden;
   }
+
   
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) {
+  .header-transparency{
+    min-height: 200px !important;
+  }
+  .header-container{
+    padding-top: 0px;
+  }
   .eis-brand {
 
     padding-top: 20px;

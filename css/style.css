@@ -55,8 +55,11 @@ body a{
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
 	background-size: 100%;
-	border-bottom: 1px solid #ee6265;
-	min-height: 1200px;
+
+	min-height: 600px;
+}
+.header-container{
+	vertical-align: bottom;
 }
 
 .logo {
