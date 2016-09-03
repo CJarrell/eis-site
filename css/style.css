@@ -65,12 +65,21 @@ body a{
 .logo {
 
 	margin: 0 auto;
+	-webkit-border-radius: 37px;
+	-moz-border-radius: 37px;
+	border-radius: 37px;
+	-webkit-box-shadow: #A12026 3px 3px 3px;
+	-moz-box-shadow: #A12026 3px 3px 3px;
+	box-shadow: #A12026 3px 3px 3px;
+	padding: 0px;
 
 }
 
 .eis-brand {
 	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;border-radius: 20px;border:1px solid #EE6265;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border:1px solid #EE6265;
 	background:rgba(255,255,255,0.8);
 	-webkit-box-shadow: #A12026 3px 3px 3px;
 	-moz-box-shadow: #A12026 3px 3px 3px;
@@ -89,6 +98,12 @@ body a{
 	visibility: hidden;
 	padding: 10px;
 
+
+}
+#eis-nav{
+	-webkit-box-shadow: #A12026 3px 3px 3px;
+	-moz-box-shadow: #A12026 3px 3px 3px;
+	box-shadow: #A12026 3px 3px 3px;
 }
 
 .navbar-nav{
