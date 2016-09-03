@@ -15,57 +15,108 @@ Client Skin: #ffebbe*/
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
+
+@media (min-width: 768px) and (max-width: 1210px) {
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+}
+/* responsive text queries */
+@media screen and (max-width: 1500px) {
+  p,.btn,input,div,span,h4 {
+    font-size: 85%;
+  }
+  h1 {
+    font-size: 24px;  
+  }
+  h2 {
+    font-size: 22px;  
+  }
+  h3 {
+    font-size: 18px;  
+  }
+}
+
+@media screen and (max-width:1250px) {
+  p,.btn,input,div,span,h4 {
+    font-size: 65%;
+  }
+  h1 {
+    font-size: 20px;  
+  }
+  h2 {
+    font-size: 18px;  
+  }
+  h3 {
+    font-size: 15px;  
+  }
+}
+
+@media screen and (max-width:968px) {
+  p,.btn,input,div,span,h4 {
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 20px;  
+  }
+  h2 {
+    font-size: 18px;  
+  }
+  h3 {
+    font-size: 15px;  
+  }
+}
+
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
+@media (max-width: 768px) {
   
   .header-transparency{
     max-height: 25%;
   }
-  .header-container{
-    padding-top: 0px;
+
+  .logo {
+
+    margin: 0 auto;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-box-shadow: #A12026 3px 3px 3px;
+    -moz-box-shadow: #A12026 3px 3px 3px;
+    box-shadow: #A12026 3px 3px 3px;
+    padding: 0px;
+
   }
   .brand-type{
     max-width: 90%;
 
     margin: 0px;
   }
-  .eis-brand {
-
-    padding-top: 20px;
-    padding-bottom: 25px;
-    padding-left: 0px;
-    padding: 0px;
-    visibility: hidden;
+  .container-fluid{
+    padding-bottom: 20px;
   }
+  .navbar-nav{
+      margin: 0 auto;
+      display: block;
+      table-layout: fixed;
+      float:none;
+  }
+
+
 
   
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
-  .header-transparency{
-    min-height: 200px !important;
-  }
-  .header-container{
-    padding-top: 0px;
-  }
-  .eis-brand {
+@media (max-width: 992px) {
 
-    padding-top: 20px;
-    padding-bottom: 25px;
-    padding-left: 0px;
-    visibility: hidden;
-  }
+
 
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
-  .eis-brand {
+@media (min-width: 1200px) {
 
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 0px;
-    visibility: hidden;
-  }
 }
