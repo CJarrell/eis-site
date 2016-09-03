@@ -17,31 +17,35 @@ Client Skin: #ffebbe*/
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
+  .eis-brand {
 
-  .navbar-nav{
-      margin: 0 auto;
-      display: table;
-      table-layout: fixed;
-      float:none;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    visibility: hidden;
   }
+  
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) {
-    .branding{
+  .eis-brand {
 
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    visibility: hidden;
   }
-  .logo {
 
-  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) {
-   .branding{
+  .eis-brand {
 
-  }
-  .logo {
-
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    visibility: hidden;
   }
 }

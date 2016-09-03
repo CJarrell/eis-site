@@ -6,10 +6,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 */
 
 /*Colors
-Red: #a12026
-Pink: #ee6265
+Red: #a12026 rgb(161,32,38)
+Pink: #ee6265 rgb(239,98,101)
 Yellow: #f8ed70
 Black: #0c0d0d
+White: #fff
 Te'a Skin: #fccf9c
 Client Skin: #ffebbe*/
 
@@ -44,12 +45,18 @@ body a{
 }
 
 .header-transparency{
-	background-color: rgba(255,255,255,.75);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ee6265+0,ffffff+100 */
+	background: #ee6265; /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(239,98,101,.25) 0%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(239,98,101,.25) 0%, #ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(239,98,101,.25) 0%, #ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee6265', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
 	background-size: 100%;
 	border-bottom: 1px solid #ee6265;
+	min-height: 1200px;
 }
 
 .logo {
@@ -59,16 +66,31 @@ body a{
 }
 
 .eis-brand {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;border-radius: 20px;border:1px solid #EE6265;
+	background:rgba(255,255,255,0.8);
+	-webkit-box-shadow: #A12026 3px 3px 3px;
+	-moz-box-shadow: #A12026 3px 3px 3px;
+	box-shadow: #A12026 3px 3px 3px;
+	margin: 10px;
 
-	padding-top: 20px;
-	padding-bottom: 10px;
-	padding-left: 0px;
+	padding: 10px;
 	visibility: hidden;
+}
+.brand-type{
+	max-width: 90%;
+
+	margin: 20px;
 }
 .eis-nav-container {
 	visibility: hidden;
 }
-
+.navbar-nav{
+      margin: 0 auto;
+      display: table;
+      table-layout: fixed;
+      float:none;
+  }
 
 
 
@@ -81,7 +103,7 @@ body a{
 	font-size:4em;
 }
 span.m_1{
-	color:#47cec0;
+	color:#a12026;
 }
 .top_grids{
 	margin-top:5em;
