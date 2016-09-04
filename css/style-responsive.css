@@ -42,16 +42,16 @@ Client Skin: #ffebbe*/
 
 @media screen and (max-width:1250px) {
   p,.btn,input,div,span,h4 {
-    font-size: 65%;
+    font-size: 75%;
   }
   h1 {
-    font-size: 20px;  
+    font-size: 25px;  
   }
   h2 {
-    font-size: 18px;  
+    font-size: 20px;  
   }
   h3 {
-    font-size: 15px;  
+    font-size: 18px;  
   }
 }
 

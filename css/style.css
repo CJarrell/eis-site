@@ -176,10 +176,14 @@ span.m_1{
 	position:relative;
 }
 .grid1 span {
-	width: 235px;
-	height: 242px;
+	width: 240px;
+	height: 240px;
 	display: inline-block;
 	background: url(../images/base.png) no-repeat 0px 0px;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
 }
 .grid1:hover .top_grid h3{
 	color:#c5c5c5;
@@ -227,13 +231,15 @@ h2.m_3{
 }
 p.head_text{
 	color:#ee6265;
-	font-size:1.6em;
-	line-height:2em;
-	margin-top:2em;
+	font-size: 3em;
+	line-height: 2em;
+	margin-bottom:2em;
+}
+
 }
 p.m_2{
 	color: #ee6265;
-	font-size: 1.6em;
+	font-size: 3em;
 	line-height: 2em;
 	margin-bottom:2em;
 }
