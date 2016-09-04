@@ -14,6 +14,8 @@ White: #fff
 Te'a Skin: #fccf9c
 Client Skin: #ffebbe*/
 
+/*font-family: 'Cantarell', sans-serif;*/
+
 @font-face{
 	font-family: "blessed-day";
 	src: url('../font/BLESSED_DAY_COMPLETE.eot') format('embedded-opentype'), url('../font/BLESSED_DAY_COMPLETE.otf') format('opentype');
@@ -39,11 +41,14 @@ p {
 }
 
 html, body{
-  font-family: 'Asap', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
 
 
 }
 body a{
+	font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -66,6 +71,9 @@ body a{
 }
 .white{
 	color: #fff;
+}
+.off-white{
+	color: #c5c5c5;
 }
 
 /*Header*/
@@ -92,11 +100,15 @@ body a{
 	-o-background-size: 100%;
 	background-size: 100%;
 
-	min-height: 600px;
+	min-height: 850px;
 }
 .header-container{
 	vertical-align: middle;
 }
+ .logo-container{
+    padding: 0px;
+    padding-bottom:0px;
+  }
 
 .logo {
 
@@ -210,7 +222,11 @@ span.m_1{
 
 /*--about--*/
 .approach{
-	background: url(../images/springtime-blossoms.jpg);
+	background: url(../images/springtime-blossoms.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	
 }
 
