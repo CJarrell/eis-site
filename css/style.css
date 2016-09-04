@@ -19,6 +19,8 @@ Client Skin: #ffebbe*/
 	src: url('../font/BLESSED_DAY_COMPLETE.eot') format('embedded-opentype'), url('../font/BLESSED_DAY_COMPLETE.otf') format('opentype');
 }
 
+
+
 h4, h5, h6,
 h1, h2, h3 {
 
@@ -47,6 +49,23 @@ body a{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
+}
+
+/*colors*/
+.red{
+	color: #a12026;
+}
+.pink{
+	color: #ee6265;
+}
+.yellow{
+	color: #f8ed70;
+}
+.black{
+	color: #0c0d0d;
+}
+.white{
+	color: #fff;
 }
 
 /*Header*/
@@ -144,8 +163,8 @@ body a{
 	padding:8em 0;
 }
 .content_top h1{
-	color:#777;
-	font-size:4em;
+	color:#c5c5c5;
+	font-size:8em;
 }
 span.m_1{
 	color:#a12026;
@@ -163,10 +182,10 @@ span.m_1{
 	background: url(../images/base.png) no-repeat 0px 0px;
 }
 .grid1:hover .top_grid h3{
-	color:#777;
+	color:#c5c5c5;
 }
 .grid1:hover .top_grid p{
-	color:#777;
+	color:#c5c5c5;
 }
 .top_grid {
 	position: absolute;
@@ -177,7 +196,7 @@ span.m_1{
 	font-size:3em;
 	text-transform: uppercase;
 	margin: 0;
-	color:#47cec0;
+
 }
 .top_grid p{
 	font-size:1.3em;
@@ -186,33 +205,42 @@ span.m_1{
 
 
 /*--about--*/
-.about{
-	background:#eee;
-	padding:8em 0;
+.approach{
+	background: url(../images/springtime-blossoms.jpg);
+	
 }
-.about_top{
+
+.approach-transparency{
+	background:rgba(255,255,255,0.75);
+	padding: 8em 0;
+	border-top: solid 1px #ee6265;
+	border-bottom: solid 1px #ee6265;
+}
+
+
+.approach_top{
 	text-align:center;
 }
 h2.m_3{
-	color: #777;
-	font-size: 4em;
+	color: #ee6265;
+	font-size: 8em;
 }
 p.head_text{
-	color:#777;
+	color:#ee6265;
 	font-size:1.6em;
 	line-height:2em;
 	margin-top:2em;
 }
 p.m_2{
-	color: #777;
+	color: #ee6265;
 	font-size: 1.6em;
 	line-height: 2em;
 	margin-bottom:2em;
 }
-.about_bottom {
+.approach_bottom {
 	margin-top: 5em;
 }
-.about_left a, .feature_right a, .post_but a, .subscribe label, .contact_but label, .planContainer .button a{
+.approach_left a, .feature_right a, .post_but a, .subscribe label, .contact_but label, .planContainer .button a{
 	position: relative;
 	z-index: 1;
 }
@@ -328,7 +356,7 @@ ul.service_grid li.desc h4{
 	margin-bottom:1em;
 }
 ul.service_grid li.desc  h4 a {
-	color: #777;
+	color: #c5c5c5;
 	font-size: 1.5em;
 }
 ul.service_grid li.desc  h4 a:hover{
@@ -455,11 +483,11 @@ a.btn1.btn2.btn-1.btn-1b {
 	color:#47cec0;
 }
 .team_grid:hover h3 a{
-	color:#777;
+	color:#c5c5c5;
 	text-decoration:none;
 }
 h3.m_4 {
-	color:#777;
+	color:#c5c5c5;
 	font-size: 4em;
 	text-align:center;
 	padding:0em 0 1em;
@@ -472,7 +500,7 @@ h3.m_4 {
 	font-size:1.5em;
 }
 .post_desc h4 a{
-	color:#777;
+	color:#c5c5c5;
 }
 .post_desc h4 a:hover{
 	text-decoration:none;
@@ -826,7 +854,7 @@ x:-o-prefocus, .lb-overlay img {
 }
 .planContainer .title1 h3 {
 	font-size: 2.125em;
-	color:#777;
+	color:#c5c5c5;
 	margin: 0;
 	padding: .6em 0;
 }
@@ -848,7 +876,7 @@ x:-o-prefocus, .lb-overlay img {
 	margin-top: 10em;
 }
 .planContainer .options li {
-	color:#777;
+	color:#c5c5c5;
 	line-height:3em;
 	border-bottom: 1px solid #E9E9E9;
 	font-size: 1.2em;
@@ -875,7 +903,7 @@ x:-o-prefocus, .lb-overlay img {
 	border:none;
 }
 .planContainer .button a.bestPlanButton:hover {
-	background:#777;
+	background:#c5c5c5;
 }
 #pricePlans #plans .plan {
 	width: 30.9999%;
@@ -990,13 +1018,13 @@ label.btn1.btn4.btn-1.btn-1b {
 	padding: 30px 100px;
 }
 .contact h4 {
-	color:#777;
+	color:#c5c5c5;
 	font-size:4em;
 	text-align: center;
 	padding: 1em 0;
 }
 .contact p {
-	color:#777;
+	color:#c5c5c5;
 	font-size: 1.6em;
 	margin-bottom: 4em;
 	text-align:center;
@@ -1514,7 +1542,7 @@ label.btn1.btn3.btn-1.btn-1b {
 	padding: 25px 40px;
 }
 .contact h4 {
-	color: #777;
+	color: #c5c5c5;
 	font-size: 3em;
 	padding:0;
 }
