@@ -71,7 +71,6 @@ Client Skin: #ffebbe*/
 }
 @media (max-width: 1628px) {
   .logo {
-
     margin: 0 auto;
     -webkit-border-radius: 43px;
     -moz-border-radius: 43px;
@@ -80,12 +79,38 @@ Client Skin: #ffebbe*/
     -moz-box-shadow: #A12026 3px 3px 3px;
     box-shadow: #A12026 3px 3px 3px;
     padding: 0px;
-
   }
 }
 @media (max-width: 1601px) {
-  .logo {
+     /*Section Content*/
+  .section-head > h1{
+    font-family: "blessed-day";
+    font-size: 15em;
+    color:#c5c5c5;
+  }
+  h3.section-sub {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    color:#c5c5c5;
+  }
 
+  .section-body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color:#c5c5c5;
+  }
+  .logo {
+    margin: 0 auto;
+    -webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    border-radius: 43px;
+    -webkit-box-shadow: #A12026 3px 3px 3px;
+    -moz-box-shadow: #A12026 3px 3px 3px;
+    box-shadow: #A12026 3px 3px 3px;
+    padding: 0px;
+  }
+  .logo {
     margin: 0 auto;
     -webkit-border-radius: 41.5px;
     -moz-border-radius: 41.5px;
@@ -94,12 +119,17 @@ Client Skin: #ffebbe*/
     -moz-box-shadow: #A12026 3px 3px 3px;
     box-shadow: #A12026 3px 3px 3px;
     padding: 0px;
-
   }
 }
 @media (max-width: 1367px) {
-  .logo {
+  h3.section-sub {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3.75em;
+    color:#c5c5c5;
+  }
 
+  .logo {
     margin: 0 auto;
     -webkit-border-radius: 38px;
     -moz-border-radius: 38px;
@@ -108,12 +138,28 @@ Client Skin: #ffebbe*/
     -moz-box-shadow: #A12026 3px 3px 3px;
     box-shadow: #A12026 3px 3px 3px;
     padding: 0px;
-
   }
 }
 @media (max-width: 1025px) {
-  .logo {
+    /*Section Content*/
+  .section-head > h1{
+    font-family: "blessed-day";
+    font-size: 9em;
+    color:#c5c5c5;
+  }
+  h3.section-sub {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+    color:#c5c5c5;
+  }
 
+  .section-body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color:#c5c5c5;
+  }
+  .logo {
     margin: 0 auto;
     -webkit-border-radius: 43px;
     -moz-border-radius: 43px;
@@ -122,13 +168,33 @@ Client Skin: #ffebbe*/
     -moz-box-shadow: #A12026 3px 3px 3px;
     box-shadow: #A12026 3px 3px 3px;
     padding: 0px;
-
   }
 }
 
-@media (max-width: 413px) {
-  .logo {
+@media (max-width: 415px) {
+  /*Section Content*/
+  .section-head > h1{
+    font-family: "blessed-day";
+    font-size: 6em;
+    color:#c5c5c5;
+  }
+  h3.section-sub {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+    color:#c5c5c5;
+  }
 
+  .section-body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color:#c5c5c5;
+  }
+  /*Header*/
+  .header-transparency{
+    min-height: 575px;
+  }
+  .logo {
     margin: 0 auto;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
@@ -137,13 +203,27 @@ Client Skin: #ffebbe*/
     -moz-box-shadow: #A12026 3px 3px 3px;
     box-shadow: #A12026 3px 3px 3px;
     padding: 0px;
-
   }
 }
 
-@media (max-width: 374px) {
-  .logo {
+@media (max-width: 376px) {
+    /*Section Content*/
+  .section-head >h1{
+    font-family: "blessed-day";
+    font-size: 9em;
+    color:#c5c5c5;
+  }
 
+  .section-body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color:#c5c5c5;
+  }
+  /*Header*/
+  .header-transparency{
+    min-height: 575px;
+  }
+  .logo {
     margin: 0 auto;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
@@ -152,26 +232,43 @@ Client Skin: #ffebbe*/
     -moz-box-shadow: #A12026 3px 3px 3px;
     box-shadow: #A12026 3px 3px 3px;
     padding: 0px;
-
   }
 }
 
 
 @media (max-width: 321px) {
+  /*Section Content*/
+  .section-head >h1{
+    font-family: "blessed-day";
+    font-size: 7em;
+    color:#c5c5c5;
+  }
+  h3.section-sub {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.25em;
+    color:#c5c5c5;
+  }
+
+  .section-body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color:#c5c5c5;
+  }
   /*Header*/
-.header {
+  .header {
 
-  background: url(../images/1.jpg)no-repeat center 25%;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+    background: url(../images/1.jpg)no-repeat center 25%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 
 
-}
+  }
   
   .header-transparency{
-    max-height: 50%;
+    min-height: 575px;
   }
   .header-inner{
     padding-top: 3em;
@@ -206,19 +303,11 @@ Client Skin: #ffebbe*/
       table-layout: fixed;
       float:none;
   }
+  
 
 
 
   
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (max-width: 992px) {
 
-
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-}

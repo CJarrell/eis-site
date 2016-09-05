@@ -103,7 +103,7 @@ h2 {
 
 /*h3*/
 h3 {
-  font-size: 1.375em;
+  font-size: 1.75em;
   /* 1.375x body copy size = 22px */
   line-height: 1.13636364;
   /* 25px / 22px */
@@ -119,7 +119,7 @@ h3 {
 
 @media (min-width: 56.25em) {
   h3 {
-    font-size: 1.75em;
+    font-size: 2.75em;
     /* 1.75x body copy size = 28px */
     line-height: 1.25;
   }
@@ -172,15 +172,14 @@ p {
 
 .section-head h1{
   font-family: "blessed-day";
-  font-size: 10em;
+  font-size: 12em;
   color:#c5c5c5;
-
-
 }
 
-.section-sub{
+h3.section-sub {
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300i;
+  font-weight: 300;
+  font-size: 4em;
   color:#c5c5c5;
 }
 
