@@ -33,6 +33,9 @@ Client Skin: #ffebbe*/
   .header-transparency{
     max-height: 50%;
   }
+  .header-inner{
+    padding-top: 10em;
+  }
   .logo-container{
     padding: 5px;
     padding-bottom:0px;
@@ -68,10 +71,63 @@ Client Skin: #ffebbe*/
 
   
 }
+@media (max-width: 321px) {
+  /*Header*/
+.header {
+
+  background: url(../images/1.jpg)no-repeat center 25%;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+
+
+}
+  
+  .header-transparency{
+    max-height: 50%;
+  }
+  .header-inner{
+    padding-top: 3em;
+  }
+  .logo-container{
+    padding: 25px;
+    padding-bottom:0px;
+  }
+  .logo {
+
+    margin: 0 auto;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-box-shadow: #A12026 3px 3px 3px;
+    -moz-box-shadow: #A12026 3px 3px 3px;
+    box-shadow: #A12026 3px 3px 3px;
+    padding: 0px;
+
+  }
+  .brand-type{
+    max-width: 150%;
+
+    margin: 0px;
+  }
+  .container-fluid{
+    padding-bottom: 5px;
+  }
+  .navbar-nav{
+      margin: 0 auto;
+      display: block;
+      table-layout: fixed;
+      float:none;
+  }
+
+
+
+  
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) {
-
 
 
 }

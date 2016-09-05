@@ -180,7 +180,7 @@ p {
 
 .section-sub{
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 300i;
   color:#c5c5c5;
 }
 
@@ -240,6 +240,9 @@ p {
 }
 .header-container{
   vertical-align: middle;
+}
+.header-inner{
+  padding-top: 45em;
 }
  .logo-container{
     padding: 0px;
