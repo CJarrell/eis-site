@@ -34,7 +34,7 @@ Client Skin: #ffebbe*/
     max-height: 50%;
   }
   .header-inner{
-    padding-top: 10em;
+    padding-top: 7.5em;
   }
   .logo-container{
     padding: 5px;
@@ -43,9 +43,7 @@ Client Skin: #ffebbe*/
   .logo {
 
     margin: 0 auto;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
+
     -webkit-box-shadow: #A12026 3px 3px 3px;
     -moz-box-shadow: #A12026 3px 3px 3px;
     box-shadow: #A12026 3px 3px 3px;
@@ -71,6 +69,94 @@ Client Skin: #ffebbe*/
 
   
 }
+@media (max-width: 1628px) {
+  .logo {
+
+    margin: 0 auto;
+    -webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    border-radius: 43px;
+    -webkit-box-shadow: #A12026 3px 3px 3px;
+    -moz-box-shadow: #A12026 3px 3px 3px;
+    box-shadow: #A12026 3px 3px 3px;
+    padding: 0px;
+
+  }
+}
+@media (max-width: 1601px) {
+  .logo {
+
+    margin: 0 auto;
+    -webkit-border-radius: 41.5px;
+    -moz-border-radius: 41.5px;
+    border-radius: 41.5px;
+    -webkit-box-shadow: #A12026 3px 3px 3px;
+    -moz-box-shadow: #A12026 3px 3px 3px;
+    box-shadow: #A12026 3px 3px 3px;
+    padding: 0px;
+
+  }
+}
+@media (max-width: 1367px) {
+  .logo {
+
+    margin: 0 auto;
+    -webkit-border-radius: 38px;
+    -moz-border-radius: 38px;
+    border-radius: 38px;
+    -webkit-box-shadow: #A12026 3px 3px 3px;
+    -moz-box-shadow: #A12026 3px 3px 3px;
+    box-shadow: #A12026 3px 3px 3px;
+    padding: 0px;
+
+  }
+}
+@media (max-width: 1025px) {
+  .logo {
+
+    margin: 0 auto;
+    -webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    border-radius: 43px;
+    -webkit-box-shadow: #A12026 3px 3px 3px;
+    -moz-box-shadow: #A12026 3px 3px 3px;
+    box-shadow: #A12026 3px 3px 3px;
+    padding: 0px;
+
+  }
+}
+
+@media (max-width: 413px) {
+  .logo {
+
+    margin: 0 auto;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: #A12026 3px 3px 3px;
+    -moz-box-shadow: #A12026 3px 3px 3px;
+    box-shadow: #A12026 3px 3px 3px;
+    padding: 0px;
+
+  }
+}
+
+@media (max-width: 374px) {
+  .logo {
+
+    margin: 0 auto;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    -webkit-box-shadow: #A12026 3px 3px 3px;
+    -moz-box-shadow: #A12026 3px 3px 3px;
+    box-shadow: #A12026 3px 3px 3px;
+    padding: 0px;
+
+  }
+}
+
+
 @media (max-width: 321px) {
   /*Header*/
 .header {
@@ -97,9 +183,9 @@ Client Skin: #ffebbe*/
   .logo {
 
     margin: 0 auto;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
     -webkit-box-shadow: #A12026 3px 3px 3px;
     -moz-box-shadow: #A12026 3px 3px 3px;
     box-shadow: #A12026 3px 3px 3px;
