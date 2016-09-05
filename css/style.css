@@ -169,7 +169,7 @@ ul, ol {
 p {
   margin: 0;
 }
-
+/*Section Copy*/
 .section-head h1{
   font-family: "blessed-day";
   font-size: 12em;
@@ -178,15 +178,16 @@ p {
 
 h3.section-sub {
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 4em;
   color:#c5c5c5;
 }
-
-.section-body{
+p.section-body{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  color:#c5c5c5;
+  font-size: 3.75em;
+  text-align: justify;
+  color:#ee6265;
 }
 /*End Typography*/
 
@@ -299,12 +300,18 @@ h3.section-sub {
 }
 
 .navbar-nav{
-      margin: 0 auto;
-      display: table;
-      table-layout: fixed;
-      float:none;
-  }
-
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+  float:none;
+}
+.navbar .nav > li > a, .navbar .nav > li > a,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {                       
+  font-family:    'Josefin', sans-serif;
+  font-weight: 300;
+  font-size: 0.75em;
+}
 /*--content--*/
 .content_top{
   padding:8em 0;
