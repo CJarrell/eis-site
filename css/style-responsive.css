@@ -59,6 +59,17 @@ Client Skin: #ffebbe*/
 
   
 }
+@media (max-width: 2561px) {
+  /*NAVBAR FONT*/
+  .navbar .nav > li > a, .navbar .nav > li > a.page-scroll > h3,
+  .navbar .nav > li.current-menu-item > a.page-scroll > h3, 
+  .navbar .nav > li.current-menu-ancestor > a.page-scroll > h3{                       
+    font-family:    'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.25em;
+  }
+
+}
 @media (max-width: 1628px) {
   .logo {
     margin: 0 auto;
@@ -118,6 +129,14 @@ Client Skin: #ffebbe*/
     box-shadow: #A12026 3px 3px 3px;
     padding: 0px;
   }
+  /*NAVBAR FONT*/
+  .navbar .nav > li > a, .navbar .nav > li > a.page-scroll > h3,
+  .navbar .nav > li.current-menu-item > a.page-scroll > h3, 
+  .navbar .nav > li.current-menu-ancestor > a.page-scroll > h3{                       
+    font-family:    'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+  }
 }
 @media (max-width: 1025px){
   /*Section Content*/
@@ -156,12 +175,12 @@ Client Skin: #ffebbe*/
     padding: 0px;
   }
   /*NAVBAR FONT*/
-  .navbar .nav > li > a, .navbar .nav > li > a,
-  .navbar .nav > li.current-menu-item > a, 
-  .navbar .nav > li.current-menu-ancestor > a {                       
-    font-family:    'Josefin', sans-serif;
+  .navbar .nav > li > a, .navbar .nav > li > a.page-scroll > h3,
+  .navbar .nav > li.current-menu-item > a.page-scroll > h3, 
+  .navbar .nav > li.current-menu-ancestor > a.page-scroll > h3{                       
+    font-family:    'Josefin Sans', sans-serif;
     font-weight: 300;
-    font-size: 0.5em;
+    font-size: 1.25em;
   }
 
 }
@@ -200,7 +219,7 @@ Client Skin: #ffebbe*/
   .navbar .nav > li > a, .navbar .nav > li > a,
   .navbar .nav > li.current-menu-item > a, 
   .navbar .nav > li.current-menu-ancestor > a {                       
-    font-family:    'Josefin', sans-serif;
+    font-family:    'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 1.5em;
   }
@@ -245,9 +264,9 @@ Client Skin: #ffebbe*/
   .navbar .nav > li > a, .navbar .nav > li > a,
   .navbar .nav > li.current-menu-item > a, 
   .navbar .nav > li.current-menu-ancestor > a {                       
-    font-family:    'Josefin', sans-serif;
+    font-family:    'Josefin Sans', sans-serif;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 1.25em;
   }
 }
 
@@ -349,9 +368,9 @@ Client Skin: #ffebbe*/
   .navbar .nav > li > a, .navbar .nav > li > a,
   .navbar .nav > li.current-menu-item > a, 
   .navbar .nav > li.current-menu-ancestor > a {                       
-    font-family:    'Josefin', sans-serif;
+    font-family:    'Josefin Sans', sans-serif !important;
     font-weight: 300;
-    font-size: 0.75em;
+    font-size: 1.25em;
   }
     
 }
