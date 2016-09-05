@@ -25,59 +25,16 @@ Client Skin: #ffebbe*/
   }
 }
 /* responsive text queries */
-@media screen and (max-width: 1500px) {
-  p,.btn,input,div,span,h4 {
-    font-size: 95%;
-  }
-  h1 {
-    font-size: 20px;  
-  }
-  h2 {
-    font-size: 18px;  
-  }
-  h3 {
-    font-size: 16px;  
-  }
-}
 
-@media screen and (max-width:1250px) {
-  p,.btn,input,div,span,h4 {
-    font-size: 90%;
-  }
-  h1 {
-    font-size: 18px;  
-  }
-  h2 {
-    font-size: 16px;  
-  }
-  h3 {
-    font-size: 14px;  
-  }
-}
-
-@media screen and (max-width:968px) {
-  p,.btn,input,div,span,h4 {
-    font-size: 85%;
-  }
-  h1 {
-    font-size: 18px;  
-  }
-  h2 {
-    font-size: 16px;  
-  }
-  h3 {
-    font-size: 14px;  
-  }
-}
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
   
   .header-transparency{
-    max-height: 25%;
+    max-height: 50%;
   }
   .logo-container{
-    padding: 25px;
+    padding: 5px;
     padding-bottom:0px;
   }
   .logo {
@@ -93,12 +50,12 @@ Client Skin: #ffebbe*/
 
   }
   .brand-type{
-    max-width: 90%;
+    max-width: 100%;
 
     margin: 0px;
   }
   .container-fluid{
-    padding-bottom: 20px;
+    padding-bottom: 5px;
   }
   .navbar-nav{
       margin: 0 auto;
