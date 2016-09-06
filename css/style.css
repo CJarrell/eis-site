@@ -181,6 +181,7 @@ h3.section-sub {
   font-weight: 400;
   font-size: 4em;
   color:#c5c5c5;
+  margin-bottom: .75em;
 }
 p.section-body{
   font-family: 'Josefin Sans', sans-serif;
@@ -188,6 +189,7 @@ p.section-body{
   font-size: 3.75em;
   text-align: justify;
   color:#ee6265;
+
 }
 /*End Typography*/
 
@@ -328,10 +330,6 @@ p.section-body{
 }
 .content_top h1{
   color:#c5c5c5;
-
-}
-span.m_1{
-  color:#a12026;
 }
 .top_grids{
   margin-top:5em;
