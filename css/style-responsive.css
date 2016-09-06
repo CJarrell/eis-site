@@ -231,6 +231,10 @@ Client Skin: #ffebbe*/
     font-weight: 300;
     font-size: 1.5em;
   }
+  /*About*/
+  .tea-img{
+    max-width: 300px;
+  }
 }
 
 @media (max-width: 415px){
@@ -276,6 +280,10 @@ Client Skin: #ffebbe*/
     font-weight: 300;
     font-size: 1.25em;
   }
+  /*About*/
+  .tea-img{
+    max-width: 250px;
+  }
 }
 
 @media (max-width: 376px){
@@ -306,6 +314,11 @@ Client Skin: #ffebbe*/
     -moz-box-shadow: #A12026 3px 3px 3px;
     box-shadow: #A12026 3px 3px 3px;
     padding: 0px;
+  }
+
+  /*About*/
+  .tea-img{
+    max-width: 250px;
   }
 }
 
@@ -379,6 +392,11 @@ Client Skin: #ffebbe*/
     font-family:    'Josefin Sans', sans-serif !important;
     font-weight: 300;
     font-size: 1.25em;
+  }
+
+  /*About*/
+  .tea-img{
+    max-width: 200px;
   }
     
 }
