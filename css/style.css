@@ -403,7 +403,11 @@ section#about{
 .about_bottom {
   margin-top: 5em;
 }
+.about_left{
+  padding: 4em;
+}
 .about_left a, .feature_right a, .post_but a, .subscribe label, .contact_but label, .planContainer .button a{
+
   position: relative;
   z-index: 1;
 }
@@ -453,4 +457,23 @@ section#about{
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+/*Credentials Images*/
+.about_right{
+  
+  padding: 4em;
+  height: 100%;
+
+}
+ul.cred-img{
+  padding:2em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: #A12026 3px 3px 3px;
+  -moz-box-shadow: #A12026 3px 3px 3px;
+  box-shadow: #A12026 3px 3px 3px;
+  background:rgba(239,98,101,0.75);
+  list-style: none;
 }
