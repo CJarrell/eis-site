@@ -223,6 +223,9 @@ p.section-body{
 .section-padding{
   padding-bottom: 75px;
 }
+.element-margin{
+  margin-bottom: 25px;
+}
 div.liner{
   border:1.5px solid #a12026;
   max-width: 77%;
