@@ -223,6 +223,10 @@ p.section-body{
 .section-padding{
   padding-bottom: 75px;
 }
+div.liner{
+  border:1.5px solid #a12026;
+  max-width: 77%;
+}
 
 /*Header*/
 .header {
@@ -474,6 +478,9 @@ ul.cred-img{
   -webkit-box-shadow: #A12026 3px 3px 3px;
   -moz-box-shadow: #A12026 3px 3px 3px;
   box-shadow: #A12026 3px 3px 3px;
-  background:rgba(239,98,101,0.75);
+  background:rgba(239,98,101,0.5);
   list-style: none;
+}
+ul.cred-img > li{
+  padding:10px;
 }
