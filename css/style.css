@@ -196,25 +196,25 @@ p.section-body{
 
 
 /*colors*/
-.red, h1.red, h2.red, h3.red, h4.red, h5.red, h6.red, p.red, a.red{
+.red, h1.red, h2.red, h3.red, h4.red, h5.red, h6.red, p.red, a.red, span.red{
   color: #a12026;
 }
-.pink, h1.pink, h2.pink, h3.pink, h4.pink, h5.pink, h6.pink, p.pink, a.pink{
+.pink, h1.pink, h2.pink, h3.pink, h4.pink, h5.pink, h6.pink, p.pink, a.pink, span.pink{
   color: #ee6265;
 }
-.yellow, h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, p.yellow, a.yellow{
+.yellow, h1.yellow, h2.yellow, h3.yellow, h4.yellow, h5.yellow, h6.yellow, p.yellow, a.yellow, span.yellow{
   color: #f8ed70;
 }
-.black, h1.black, h2.black, h3.black, h4.black, h5.black, h6.black, p.black, a.black{
+.black, h1.black, h2.black, h3.black, h4.black, h5.black, h6.black, p.black, a.black, span.black{
   color: #0c0d0d;
 }
-.white, h1.white, h2.white, h3.white, h4.white, h5.white, h6.white, p.white, a.white{
+.white, h1.white, h2.white, h3.white, h4.white, h5.white, h6.white, p.white, a.white, span.white{
   color: #fff;
 }
-.off-white, h1.off-white, h2.off-white, h3.off-white, h4.off-white, h5.off-white, h6.off-white, p.off-white, a.off-white{
+.off-white, h1.off-white, h2.off-white, h3.off-white, h4.off-white, h5.off-white, h6.off-white, p.off-white, a.off-white, span.off-white{
   color: #c5c5c5;
 }
-.off-black, h1.off-black, h2.off-black, h3.off-black, h4.off-black, h5.off-black, h6.off-black, p.off-black, a.off-black{
+.off-black, h1.off-black, h2.off-black, h3.off-black, h4.off-black, h5.off-black, h6.off-black, p.off-black, a.off-black, span.off-black{
   color: #272822;
 }
 /*End colors*/
@@ -487,3 +487,82 @@ ul.cred-img{
 ul.cred-img > li{
   padding:10px;
 }
+
+/*The Menu*/
+section#the-menu{
+  padding-top: 8em;
+}
+
+.services_box {
+  margin-top: 5em;
+}
+ul.service_grid {
+  padding: 0;
+  list-style: none;
+}
+.service_bottom{
+  margin-top:5em;
+}
+i.s1, i.s2, i.s3, i.s4, i.s5, i.s6{
+  width:96px;
+    height:96px;
+  margin:0 1em 0 0;
+  float: left;
+}
+i.s1 {
+  background: url(../images/icons.png) no-repeat 0px 0px;
+}
+i.s1:hover{
+  background: url(../images/icons.png) no-repeat 0px -110px;
+}
+i.s2 {
+  background: url(../images/icons.png) no-repeat -111px 0px;
+}
+i.s2:hover{
+  background: url(../images/icons.png) no-repeat -111px -109px;
+}
+i.s3 {
+  background: url(../images/icons.png) no-repeat -220px 1px;
+}
+i.s3:hover{
+  background:url(../images/icons.png) no-repeat -220px -109px;
+}
+i.s4{
+  background: url(../images/icons.png) no-repeat -328px 1px;
+}
+i.s4:hover{
+  background:url(../images/icons.png) no-repeat -328px -109px;
+}
+i.s5 {
+  background:url(../images/icons.png) no-repeat -439px 0px;
+}
+i.s5:hover{
+  background: url(../images/icons.png) no-repeat -439px -110px;
+}
+i.s6 {
+  background: url(../images/icons.png) no-repeat -550px 0px;
+}
+i.s6:hover{
+  background: url(../images/icons.png) no-repeat -550px -110px;
+}
+ul.service_grid li.desc {
+  overflow: hidden;
+}
+ul.service_grid li.desc h4{
+  margin-bottom:1em;
+}
+ul.service_grid li.desc  h4 a {
+  color: #c5c5c5;
+  font-size: 1.5em;
+}
+ul.service_grid li.desc  h4 a:hover{
+  text-decoration:none;
+  color:#47cec0;
+}
+ul.service_grid li.desc  p {
+  color: #888;
+  font-size:1.2em;
+  line-height: 1.5em;
+}
+
+
