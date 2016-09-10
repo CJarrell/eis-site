@@ -18,12 +18,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
   <!-- CSS Dependancies -->
   <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
   <link href="css/animation_cheat_sheet.css" rel='stylesheet' type='text/css' />
+   <link href="css/ui.totop.css" rel='stylesheet' type='text/css' />
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   
 
-  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery-3.1.0.min.js"></script>
   <script type='text/javascript' src='js/jquery-scrollspy.js'></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/scroll.js"></script>
@@ -53,7 +54,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
         });
   </script>
   
-  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/jquery.ui.totop.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
   <script type="text/javascript" src="js/easing.js"></script>
 
     <script type="text/javascript">
@@ -197,7 +199,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
   <section id="image-consulting" class="text-center section-padding" id="arrow">
     <div class="container section-head off-white">
 
-      <h1 style="font-family:blessed-day">Be <span class="pink">confident</span>. Be <span class="pink">beautiful</span>.</br> Be <span class="pink">Elite.</span></h1>
+      <h1 style="font-family:blessed-day">Be <span class="pink">confident</span>. Be <span class="pink">beautiful</span>.</br> Be <span class="pink">Elite</span>.</h1>
       <h3 class="section-sub">Image and style consulting for the modern female</h3>
 
       <p class="section-body">Now is your time. You've worked your whole life to have the job, luxuries and respect we both know you deserve... What if your image is holding you back?</br> </br><span class="red">Elite Image &amp; Style</span> is here to help you turn your vision of yourself into reality. We offer a plethora of exciting image oriented services that will refine your style and perfect your image. Imagine the lifestyle you want and we'll give you a style to match. It's almost as simple as waving a wand or picking up the <a class="red" href="tel:770.993.3873" alt="Call EI&amp;S: 770.993.3873" title="Call EI&amp;S: 770.993.3873">phone</a>.</p>
@@ -226,7 +228,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
         <div class="about_bottom">
           <div class="col-md-6 about_left">
             <h3 class="section-sub"><span class="red">Credentials</span></h3>
-            <p class="section-body off-black">Certified at the <span class="red">London Image Institute</span>.</br></br>Plus, over 10 years of experience, working closely with fashion leaders such as <span class="red">Giannie Versace</span> and <span class="red">Anne Fontaine</span></p>
+            <p class="section-body off-black">Certified at the <span class="red">London Image Institute</span>.</br></br>Plus, over 10 years of experience, working closely with fashion leaders such as <span class="red">Giannie Versace</span> and <span class="red">Anne Fontaine</span>.</p>
           
             <a href="#" class="btn1 btn-1 btn-1b">Learn more</a>
           </div>
@@ -345,13 +347,66 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
     </div>
   </section>
 
-  <section id="elite-packages" class="elite-packages section-padding">
-    <div class="container">
-      <div class="about_top section-head">
-        <h1 class="yellow red-shadow">Elite Packages</h1>
-        <h3 class="section-sub white">5 professionally curated style upgrades, for every type of modern lady</h3>
+  <section id="elite-packages" class="elite-packages">
+    <div class="elite-packages-transparency section-padding">
+      <div class="container">
+        <div class="about_top section-head">
+          <h1 class="yellow red-shadow">Elite Packages</h1>
+          <h3 class="section-sub white">5 professionally curated style upgrades, for every type of modern lady</h3>
+        </div>
       </div>
-    </div>
+      <div class="packages-container">
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <img src="images/discover-img.jpg" alt="Discovery Image" class="img-responsive center-block"/>
+              <div class="flex-caption discovery">
+                <h3 class="package-header red">Discovery Package</h3>
+                <p class="package-description">Lorem ipsum dolore somet</p>
+              </div>
+            </li>
+            <li>
+              <img src="images/job-seeker-image.jpg" alt="Job Seeker Image" class="img-responsive center-block"/>
+              <div class="flex-caption job-seeker">
+                <h3 class="package-header red">Job Seeker Package</h3>
+                <p class="package-description">Lorem ipsum dolore somet</p>
+              </div>
+            </li>
+            <li>
+              <img src="images/special-event-img.jpg" alt="Special Event Image" class="img-responsive center-block"/>
+              <div class="flex-caption special-event">
+                <h3 class="package-header red">Special Event Package</h3>
+                <p class="package-description">Lorem ipsum dolore somet</p>
+              </div>
+            </li>
+            <li>
+              <img src="images/personal-stylist-img.jpg" alt="Personal Stylist Image" class="img-responsive center-block"/>
+              <div class="flex-caption personal-stylist">
+                <h3 class="package-header red">Personal Stylist Package</h3>
+                <p class="package-description">Lorem ipsum dolore somet</p>
+              </div>
+            </li>
+            <li>
+              <img src="images/elite-package-img.jpg" alt="Elite Package Image" class="img-responsive center-block"/>
+              <div class="flex-caption elite-package">
+                <h3 class="package-header red">Elite Package</h3>
+                <p class="package-description">Lorem ipsum dolore somet</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- FlexSlider Script -->
+        <script src="js/jquery.flexslider-min.js"></script>
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" />
+        <script type="text/javascript">
+          $(window).on('load',function(){
+            $('.flexslider').flexslider({
+              animation: "fade"
+            });
+          });
+        </script>
+      </div>
+    </div>  
   </section>
 
   <section id="contact" class="contact section-padding">

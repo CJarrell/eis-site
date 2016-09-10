@@ -239,8 +239,6 @@ div.liner{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-
 }
 
 .header-transparency{
@@ -568,16 +566,16 @@ ul.service_grid li.desc  p {
 
 /*Elite Packages Section*/
 section#elite-packages{
-  padding-top: 8em;
+  background: url(../images/springtime-blossoms.jpg) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.elite-packages-transparency{
   border-top: 1px solid #a12026;
   border-bottom: 1px solid #a12026;
-  background: #ee6265;
-
-}
-/*End Elite Packages*/
-
-/*Contact Section*/
-section#contact{
+  background: rgba(255,255,255,.5);
   padding-top: 8em;
 }
 h1.red-shadow{
@@ -587,6 +585,35 @@ h1.red-shadow{
     1px -1px 0 #a12026,
     -1px 1px 0 #a12026,
     1px 1px 0 #a12026;
+}
+.packages-container{
+  max-width: 50%;
+  margin:0 auto;
+}
+.flex-caption {
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(238,98,101,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  line-height: 18px;
+}
+p.package-description{
+  font-size:2.5em;
+}
+/*.elite-package{
+  background: url(../images/be-elite-package-img.jpg)center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+/*End Elite Packages*/
+
+/*Contact Section*/
+section#contact{
+  padding-top: 8em;
 }
 /*End Contact*/
 
