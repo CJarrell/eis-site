@@ -505,7 +505,7 @@ ul.service_grid {
 }
 i.s1, i.s2, i.s3, i.s4, i.s5, i.s6{
   width:96px;
-    height:96px;
+  height:96px;
   margin:0 1em 0 0;
   float: left;
 }
@@ -564,5 +564,155 @@ ul.service_grid li.desc  p {
   font-size:1.2em;
   line-height: 1.5em;
 }
+/*End The Menu*/
+
+/*Elite Packages Section*/
+section#elite-packages{
+  padding-top: 8em;
+  border-top: 1px solid #a12026;
+  border-bottom: 1px solid #a12026;
+  background: #ee6265;
+
+}
+/*End Elite Packages*/
+
+/*Contact Section*/
+section#contact{
+  padding-top: 8em;
+}
+/*End Contact*/
+
+/*Footer: Copyright and Social Icons*/
+.social{
+  text-align:center;
+  margin-top:6em;
+}
+.social ul {
+  list-style:none;
+  padding: 0;
+}
+.social ul li:first-child, ol li:first-child {
+  margin-top: 0px;
+  margin-left: 0;
+}
+.social li {
+  background: none;
+  display: inline-block;
+  margin-right:1em;
+}
+.social ul li a i {
+  width:75px;
+  height: 75px;
+  display: block;
+  background: url(../images/img-sprite.png)no-repeat;
+}
+.social ul li a i:hover{
+  opacity:0.8;
+}
+.social ul li a i.fb {
+  background-position:-13px -310px;
+}
+.social ul li a i.tw {
+  background-position:-109px -310px;
+}
+.social ul li a i.db{
+  background-position:-215px -309px;
+}
+p.copyright {
+  font-size:1.5em;
+  color: #aaa;
+  margin: 3em 0 0 0;
+}
+p.copyright a{
+  color:#47cec0;
+}
+p.copyright a:hover{
+  color:#aaa;
+  text-decoration:none;
+}
+.header_social ul{
+  padding:0;
+  list-style:none;
+}
+.header_social ul li:first-child, ol li:first-child {
+  margin-top: 0px;
+  margin-left: 0;
+}
+.header_social li {
+  background: none;
+  display: inline-block;
+  margin-right: 1em;
+}
+.header_social ul li a i.fb1 {
+  width: 32px;
+  height: 40px;
+  display: block;
+  background: url(../images/img-sprite.png)no-repeat -245px -404px;
+  position: absolute;
+    left:1035px;
+    top: 176px;
+}
+.header_social ul li a i.fb1:hover, .header_social ul li a i.tw1:hover, .header_social ul li a i.db1:hover, .header_social ul li a i.g1:hover, .header_social ul li a i.skype:hover, .header_social ul li a i.vimeo:hover{
+  opacity:0.8;
+}
+.header_social ul li a i.tw1 {
+  width: 32px;
+  height: 40px;
+  display: block;
+  background: url(../images/img-sprite.png)no-repeat -294px -404px;
+  position: absolute;
+  left: 1115px;
+    top: 178px;
+}
+.header_social ul li a i.db1 {
+  width: 36px;
+  height: 40px;
+  display: block;
+  background: url(../images/img-sprite.png)no-repeat -342px -404px;
+  position: absolute;
+  left: 1195px;
+    top: 177px;
+}
+.header_social ul li a i.g1 {
+  width: 36px;
+  height: 40px;
+  display: block;
+  background: url(../images/img-sprite.png)no-repeat -389px -405px;
+  position: absolute;
+  left: 1075px;
+    top: 248px;
+}
+.header_social ul li a i.skype{
+  width: 36px;
+  height: 40px;
+  display: block;
+  background: url(../images/img-sprite.png)no-repeat -444px -405px;
+  position: absolute;
+  left:1196px;
+    top: 254px;
+}
+.header_social ul li a i.vimeo{
+  width: 36px;
+  height: 40px;
+  display: block;
+  background: url(../images/img-sprite.png)no-repeat -27px -452px;
+  position: absolute;
+  left: 1155px;
+    top: 298px;
+}
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  overflow: hidden;
+  width:70px;
+  height:70px;
+  border: none;
+  text-indent: 100%;
+  background: url(../images/back-top.png) no-repeat 0px 0px;
+}
+/*End Footer*/
 
 
