@@ -580,6 +580,14 @@ section#elite-packages{
 section#contact{
   padding-top: 8em;
 }
+h1.red-shadow{
+  text-shadow: 
+    3px 3px 0 #a12026,
+    -1px -1px 0 #a12026,
+    1px -1px 0 #a12026,
+    -1px 1px 0 #a12026,
+    1px 1px 0 #a12026;
+}
 /*End Contact*/
 
 /*Footer: Copyright and Social Icons*/

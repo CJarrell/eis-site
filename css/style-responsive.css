@@ -95,19 +95,16 @@ Client Skin: #ffebbe*/
   .section-head > h1{
     font-family: "blessed-day";
     font-size: 15em;
-    color:#c5c5c5;
   }
   h3.section-sub {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-size: 4em;
-    color:#c5c5c5;
   }
 
   .section-body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
-    color:#c5c5c5;
   }
   .logo{
     margin: 0 auto;
@@ -125,7 +122,6 @@ Client Skin: #ffebbe*/
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-size: 3.75em;
-    color:#c5c5c5;
   }
   .logo{
     margin: 0 auto;
@@ -151,26 +147,18 @@ Client Skin: #ffebbe*/
   .section-head > h1{
     font-family: "blessed-day";
     font-size: 9em;
-    color:#c5c5c5;
   }
   h3.section-sub {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-size: 3em;
-    color:#c5c5c5;
   }
   p.section-body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 3em;
     text-align: justify;
-    color:#ee6265;
     padding: 15px;
-  }
-  .section-body{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    color:#c5c5c5;
   }
   .logo {
     margin: 0 auto;
@@ -197,20 +185,17 @@ Client Skin: #ffebbe*/
   .section-head > h1{
     font-family: "blessed-day";
     font-size: 9em;
-    color:#c5c5c5;
   }
   h3.section-sub {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-size: 3em;
-    color:#c5c5c5;
   }
   p.section-body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 2.75em;
     text-align: justify;
-    color:#ee6265;
     padding: 30px;
   }
   .logo {
@@ -242,20 +227,17 @@ Client Skin: #ffebbe*/
   .section-head > h1{
     font-family: "blessed-day";
     font-size: 6em;
-    color:#c5c5c5;
   }
   h3.section-sub{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-size: 2.5em;
-    color:#c5c5c5;
   }
   p.section-body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 2.5em;
     text-align: justify;
-    color:#ee6265;
     padding: 10px;
   }
   /*Header*/
@@ -291,14 +273,12 @@ Client Skin: #ffebbe*/
   .section-head >h1{
     font-family: "blessed-day";
     font-size: 9em;
-    color:#c5c5c5;
   }
   p.section-body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 2.5em;
     text-align: justify;
-    color:#ee6265;
     padding: 10px;
   }
   /*Header*/
@@ -328,20 +308,17 @@ Client Skin: #ffebbe*/
   .section-head >h1{
     font-family: "blessed-day";
     font-size: 7em;
-    color:#c5c5c5;
   }
   h3.section-sub{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-size: 2.25em;
-    color:#c5c5c5;
   }
   p.section-body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 2em;
     text-align: justify;
-    color:#ee6265;
     padding: 7.5px;
   }
   /*Header*/
