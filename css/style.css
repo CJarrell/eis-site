@@ -615,6 +615,10 @@ p.package-description{
 section#contact{
   padding-top: 8em;
 }
+.contact-form{
+  margin: 0 auto;
+  display: inline-block;
+}
 /*End Contact*/
 
 /*Footer: Copyright and Social Icons*/
