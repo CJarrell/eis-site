@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 /*Colors
 Red: #a12026 rgb(161,32,38)
 Pink: #ee6265 rgb(239,98,101)
-Yellow: #f8ed70
+Yellow: #f8ed70 rgb(248,237,112)
 Black: #0c0d0d
 White: #fff
 Te'a Skin: #fccf9c
@@ -26,6 +26,7 @@ Light Grey: #c5c5c5
 
 body {
   font-size: 100%;
+  position: relative;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -230,7 +231,15 @@ div.liner{
   border:1.5px solid #a12026;
   max-width: 77%;
 }
-
+/*Hidden Nav fixed top*/
+.hidden-nav{
+  visibility: hidden;
+}
+.hidden-nav-shadow{
+  -webkit-box-shadow: #A12026 1.5px 1.5px 1.5px;
+  -moz-box-shadow: #A12026 1.5px 1.5px 1.5px;
+  box-shadow: #A12026 1.5px 1.5px 1.5px;
+}
 /*Header*/
 .header {
 
@@ -580,11 +589,11 @@ section#elite-packages{
 }
 h1.red-shadow{
   text-shadow: 
-    3px 3px 0 #a12026,
-    -1px -1px 0 #a12026,
-    1px -1px 0 #a12026,
-    -1px 1px 0 #a12026,
-    1px 1px 0 #a12026;
+    3px 3px 0 #ee6265,
+    -1px -1px 0 #ee6265,
+    1px -1px 0 #ee6265,
+    -1px 1px 0 #ee6265,
+    1px 1px 0 #ee6265;
 }
 .packages-container{
   max-width: 50%;

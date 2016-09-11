@@ -21,4 +21,21 @@ $(function() {
 
 });
 
+// Show Hidden Nav after scrolling
+$(document).ready(function(){
+  var $header = $('#header');
+  var $hiddenNav = $('#hidden-nav');
+  $header.scrollspy({
+    min: $header.offset().top,
+    onEnter: function(element, position){
+      window.console.log('scrollspy: Entering');
+      $hiddenNav.fadeOut(3000);
 
+    },
+    onLeave: function(element, position){
+      window.console.log('scrollspy: leaving');
+      $hiddenNav.addClass("slideDown");
+      $hiddenNav.slideDown();
+    }
+  });
+});
