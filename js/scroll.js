@@ -24,12 +24,13 @@ $(function() {
 // Show Hidden Nav after scrolling
 $(document).ready(function(){
   var $header = $('#header');
+  var $logo = $('.logo');
   var $hiddenNav = $('#hidden-nav');
-  $header.scrollspy({
+  $logo.scrollspy({
     min: $header.offset().top,
     onEnter: function(element, position){
       window.console.log('scrollspy: Entering');
-      $hiddenNav.fadeOut(3000);
+      $hiddenNav.fadeOut(2000);
 
     },
     onLeave: function(element, position){

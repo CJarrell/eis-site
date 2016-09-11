@@ -20,7 +20,7 @@ Light Grey: #c5c5c5
 /*Typography*/
 @font-face{
   font-family: "blessed-day";
-  src: url('../font/BLESSED_DAY_COMPLETE.eot') format('embedded-opentype'), url('../font/BLESSED_DAY_COMPLETE.otf') format('opentype');
+  src: url('../font/font-bless.eot') format('embedded-opentype'), url('../font/font-bless.otf') format('opentype');
 }
 
 
