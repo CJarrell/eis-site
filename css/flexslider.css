@@ -48,6 +48,27 @@
   display: none;
   -webkit-backface-visibility: hidden;
 }
+.flexslider > .slides > li{
+  position: relative;
+}
+.flex-caption {
+  position: absolute;
+  padding: 1.75%;
+  min-height: 30%;
+  left: 0;
+  bottom: 0;
+  background: rgba(238,98,101,.5);
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(161,32,38,.75);
+  line-height: 3em;
+}
+.flex-caption > .slides > li{
+  font-family: 'Josefin Sans', sans-serif;
+}
 .flexslider .slides img {
   width: 100%;
   display: block;
@@ -223,7 +244,7 @@ html[xmlns] .flexslider .slides {
 }
 .flex-control-paging li a:hover {
   background: #333;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(239,98,101, 0.7);
 }
 .flex-control-paging li a.flex-active {
   background: #000;
