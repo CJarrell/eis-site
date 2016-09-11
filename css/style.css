@@ -552,7 +552,7 @@ p.package-description{
 .package-list{
   list-style: none;
   text-align: center;
-  padding: 5px;
+  padding: 7.5px;
 }
 h3.package-list-header{
   font-size: 3.25em;
