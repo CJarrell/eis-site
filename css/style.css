@@ -573,6 +573,18 @@ h3.package-list-header{
 /*Contact Section*/
 section#contact{
   padding-top: 8em;
+  border-top:1px solid #ee6265;
+  border-bottom:1px solid #ee6265;
+  background: #a12026; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%,  rgba(161,32,38,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,  rgba(161,32,38,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffffff 0%,  rgba(161,32,38,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
 }
 .contact-form{
   margin: 0 auto;
@@ -598,7 +610,7 @@ section#contact{
   display: inline-block;
   margin-right:1em;
 }
-.social ul li a i {
+.social ul li a img {
   width:75px;
   height: 75px;
   display: block;
@@ -712,5 +724,26 @@ p.copyright a:hover{
   background: url(../images/back-top.png) no-repeat 0px 0px;
 }
 /*End Footer*/
+.cls-1{
+  fill: #a12026 !important;
+  max-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  display: block;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+}          
+.cls-1:hover{
+  fill: #ee6265 !important;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+} 
 
 
