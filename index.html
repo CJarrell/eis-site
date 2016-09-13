@@ -34,6 +34,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
 
   <link href="css/style.css" rel='stylesheet' type='text/css' />
   <link href="css/style-responsive.css" rel='stylesheet' type='text/css' />
+  <link href="css/ui.totop.css" rel='stylesheet' type='text/css' />
   
   <!-- Custom Theme files -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -61,14 +62,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
 
     <script type="text/javascript">
     $(document).ready(function() {
-      /*
+      
       var defaults = {
         containerID: 'toTop', // fading element id
         containerHoverID: 'toTopHover', // fading element hover id
         scrollSpeed: 1200,
         easingType: 'linear' 
       };
-      */
+      
       
       $().UItoTop({ easingType: 'easeOutQuart' });
       
@@ -93,18 +94,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                   <span class="icon-bar"></span>
               </button>
 
-              <a class="navbar-brand page-scroll" href="#page-top"></a>
+              <a class="navbar-brand page-scroll yellow" style="color: #f8ed70; font-size: 3.5em !important; font-family: blessed-day; font-size: 2.75em; margin: -3px; padding-top: 25px;" href="#">Elite Image &amp; Style</a>
 
               
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div  id="eis-hidden-nav" class="collapse navbar-collapse" >
-              <ul class="nav navbar-nav navbar-left">
-                <li>
-                    <a class="page-scroll" href="#page-top"><h3 class="yellow" style="font-family: blessed-day; font-size: 2.75em; margin: -3px;">Elite Image &amp; Style</h3></a>
-                </li>
-              </ul>
               <ul  class="nav navbar-nav navbar-right">
 
                   <li class="hidden">
@@ -180,11 +176,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
-                            </button>
-
-                            <a class="navbar-brand page-scroll" href="#page-top"></a>
-
-                            
+                            </button>                           
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -492,8 +484,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
             </ul>
         </div>
 
-        <p class="copyright text-center">&copy; 2016 <span class="pink">Elite Image &amp; Style</span>. Brand Conceived by <span class="red">Te'a Metro</span>. Developed and Designed by <span class="off-black">Colby Jarrell</span> | <a href="https://www.colbyjcreative.com" alt="Visit ColbyJCreative.com">ColbyJCreative.com</a>. All rights reserved.</p>
+        <p class="copyright text-center">&copy; 2016 <span class="pink">Elite Image &amp; Style</span>. Brand Conceived and Developed by <span class="red">Te'a Metro</span>. Graphic &amp; Web Design by Colby Jarrell | ColbyJCreative.com. All rights reserved.</p>
   </footer>
+  <a href="#" id="toTop" style="display: block;">
+    <span id="toTopHover" style="opacity: 1;"> </span>
+  </a>
   
 </body>
 </html>

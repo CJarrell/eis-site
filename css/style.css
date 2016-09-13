@@ -282,9 +282,6 @@ h3.h-nav-type{
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   border-radius: 60px;
-  -webkit-box-shadow: #A12026 3px 3px 3px;
-  -moz-box-shadow: #A12026 3px 3px 3px;
-  box-shadow: #A12026 3px 3px 3px;
   padding: 0px;
 
 }
@@ -745,5 +742,4 @@ p.copyright a:hover{
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
 } 
-
 

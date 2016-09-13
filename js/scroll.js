@@ -39,7 +39,19 @@ $(document).ready(function(){
       $hiddenNav.slideDown();
     }
   });
+
 });
+$(document).ready(function(){
+  $('#eis-hidden-nav > ul > li > a').on('click', function(){
+    $('.navbar-toggle').click()
+  });
+});
+$(document).ready(function(){
+  $('#eis-nav > ul > li > a').on('click', function(){
+    $('.navbar-toggle').click()
+  });
+});
+
 
 // Custom SVG
 $(document).ready(function customSVG(){
