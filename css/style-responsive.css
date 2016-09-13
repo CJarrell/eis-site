@@ -546,11 +546,11 @@ Client Skin: #ffebbe*/
   }
   /*Header*/
   .header{
-    background: url(../images/1.jpg)no-repeat center 25%;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    background: url(../images/1.jpg)no-repeat center top 25%;
+    -webkit-background-size: 1000px;
+    -moz-background-size: 1000px;
+    -o-background-size: 1000px;
+    background-size: 1000px;
   }
   .header-transparency{
     min-height: 575px;
