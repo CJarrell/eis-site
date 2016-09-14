@@ -1,3 +1,10 @@
+// Before After Image Slider
+// $(document).ready(function(){
+//   $('#modal-body').append({
+
+//   })
+//   $('.cocoen').cocoen();
+// });
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -53,6 +60,40 @@ $(document).ready(function(){
 });
 
 
+
+// Modal dependency
+$(document).ready(function(){
+
+  var $before = $('img.before');
+  var $after = $('img.after');
+  $('#success-button').on('click', function(){
+    $('#successStories').modal('show', function(){
+      console.log("this happened");
+    });
+  })
+  $('#successStories').on('shown.bs.modal', function () {
+    $('.cocoen').cocoen(function(){
+      $('#successModal').focus(function(){
+        console.log("this happened");
+      });
+    });
+    
+    
+    
+  });
+});
+  
+// function modal_density(){
+//     $("#modal-content").load("pages/modals/density_control.php", function() {
+//         $('#all_modal').modal('show').on('shown', function() {
+//             $("#codebarre").focus(); 
+//         });
+//     });
+// }
+
+
+
+
 // Custom SVG
 $(document).ready(function customSVG(){
     $('img.svg').each(function(){
@@ -82,5 +123,12 @@ $(document).ready(function customSVG(){
         
     });
     customSVG;
+});
+
+// Disable Right Clicking
+$(document).ready(function(){
+  $('img').on("contextmenu", function(e){
+    return false;
+  });
 });
 

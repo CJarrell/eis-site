@@ -174,6 +174,7 @@ p {
   font-family: "blessed-day";
   font-size: 12em;
   color:#c5c5c5;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
 }
 
 h3.section-sub {
@@ -182,6 +183,7 @@ h3.section-sub {
   font-size: 4em;
   color:#c5c5c5;
   margin-bottom: .75em;
+  text-shadow: 0 1px 0.75px rgba(0, 0, 0, .6);
 }
 p.section-body{
   font-family: 'Josefin Sans', sans-serif;
@@ -224,7 +226,7 @@ p.section-body{
   padding-bottom: 75px;
 }
 .element-margin{
-  margin-bottom: 25px;
+  margin-bottom: 3em;
 }
 div.liner{
   border:1.5px solid #a12026;
@@ -413,10 +415,11 @@ section#about{
   text-align:center;
 }
 .about_bottom {
-  margin-top: 5em;
+  margin-top: 6em;
 }
 .about_left{
-  padding: 4em;
+  padding: 2em;
+  padding-bottom: 1em;
 }
 .about_left a, .feature_right a, .post_but a, .subscribe label, .contact_but label, .planContainer .button a{
 
@@ -456,6 +459,7 @@ section#about{
 .btn-1b:hover,
 .btn-1b:active {
   color:#a12026;
+  background: #fff;
   text-decoration:none;
 }
 .btn-1b:hover:after,
@@ -470,16 +474,15 @@ section#about{
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-
-/*Credentials Images*/
-.about_right{
-  
-  padding: 4em;
-  height: 100%;
-
+/*.before{
+  display: none;
 }
-ul.cred-img{
-  padding:2em;
+.after{
+  display: none;
+}*/
+/*Credentials Images*/
+div.cred-img{
+  margin-top: 30px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -488,11 +491,15 @@ ul.cred-img{
   box-shadow: #A12026 3px 3px 3px;
   background:rgba(239,98,101,0.5);
   list-style: none;
-}
-ul.cred-img > li{
-  padding:10px;
-}
 
+}
+div.cred-img > a{
+  padding:3px;
+}
+div.about_bottom > p.section-body{
+  text-align: center !important;
+}
+/*End about*/
 /*The Menu*/
 section#the-menu{
   padding-top: 8em;

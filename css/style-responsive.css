@@ -546,7 +546,7 @@ Client Skin: #ffebbe*/
   }
   /*Header*/
   .header{
-    background: url(../images/1.jpg)no-repeat center top 25%;
+    background: url(../images/1.jpg)no-repeat center top 0%;
     -webkit-background-size: 1000px;
     -moz-background-size: 1000px;
     -o-background-size: 1000px;

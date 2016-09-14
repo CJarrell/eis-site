@@ -11,6 +11,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
+  overflow: hidden !important;
   margin: 0;
 }
 article,
@@ -5121,7 +5122,6 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, .2);
@@ -5136,8 +5136,9 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
-  background-color: #000;
+  /*z-index: 1040;*/
+  background-color: #a12026;
+  width: 100%;
 }
 .modal-backdrop.fade {
   filter: alpha(opacity=0);
@@ -5150,7 +5151,14 @@ button.close {
 .modal-header {
   min-height: 16.42857143px;
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #f8ed70;
+  background: #a12026;
+  -webkit-border-top-left-radius: 6.5px;
+  -webkit-border-top-right-radius: 6.5px;
+  -moz-border-radius-topleft: 6.5px;
+  -moz-border-radius-topright: 6.5px;
+  border-top-left-radius: 6.5px;
+  border-top-right-radius: 6.5px;
 }
 .modal-header .close {
   margin-top: -2px;
@@ -5158,16 +5166,24 @@ button.close {
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
+  text-shadow: 0 1px 0.75px rgba(0, 0, 0, .6);
 }
 .modal-body {
   position: relative;
-  padding: 20px;
+  background-color: #ee6265;
+
 }
 .modal-footer {
   padding: 19px 20px 20px;
-  margin-top: 15px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f8ed70;
+  background: #a12026;
+  -webkit-border-bottom-left-radius: 6.5px;
+  -webkit-border-bottom-right-radius: 6.5px;
+  -moz-border-radius-bottomleft: 6.5px;
+  -moz-border-radius-bottomright: 6.5px;
+  border-bottom-left-radius: 6.5px;
+  border-bottom-right-radius: 6.5px;
 }
 .modal-footer .btn + .btn {
   margin-bottom: 0;

@@ -17,6 +17,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
  
 
   <!-- CSS Dependancies -->
+  <link href="css/cocoen.min.css" rel='stylesheet' type='text/css' />
   <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
   <link href="css/animation_cheat_sheet.css" rel='stylesheet' type='text/css' />
    <link href="css/ui.totop.css" rel='stylesheet' type='text/css' />
@@ -24,17 +25,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   
-
+  
   <script src="js/jquery-3.1.0.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script src="js/jquery-scrollspy.min.js"></script>
-  <script type="text/javascript" src="js/scroll.js"></script>
+
 
   <!-- Custom Theme files -->
-
+  
   <link href="css/style.css" rel='stylesheet' type='text/css' />
   <link href="css/style-responsive.css" rel='stylesheet' type='text/css' />
   <link href="css/ui.totop.css" rel='stylesheet' type='text/css' />
+  
   
   <!-- Custom Theme files -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -57,8 +59,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
   </script>
   
   <script type="text/javascript" src="js/jquery.ui.totop.min.js"></script>
-  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
   <script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript" src="js/jquery.mobile-events.min.js"></script>
+  <script type="text/javascript" src="js/cocoen.min.js"></script>
 
     <script type="text/javascript">
     $(document).ready(function() {
@@ -80,6 +83,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
 
 <!-- Body -->
 <body>
+  <!-- modal -->
+  <div class="modal fade" id="successStories" tabindex="-1" role="dialog" aria-labelledby="successModal">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header success-header">
+          <button type="button" class="close text-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title yellow" id="successModal">Some words from a happy client</h3>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6" >
+              <div style="margin:10px" class="text-justify">
+                <h4 style="font-size:2.5em " class="yellow" id="successModal">I was nominated to be in <span class="red"style="font-style:italic">'The Atlantan'</span> magazine's September issue for the Women of Influence and Power. Wow, what an honor! Being a Yogi, psychotherapist and a business owner, I wasn't quite sure how to handle a photo shoot. I did my research and found the very talented Te’a Metro who helped me to find the right outfit, accessorized me beautifully, and had the most professional makeup artist, Leslie Reid work with me as well. My hairstylist, Harriet Lee of Salon Doremi, created a lovely style and I felt confident for the shoot. I could not have asked for a better glam squad!</h4>
+                <h3 class="section-body white">Kim Saunders, <span class="yellow">M.Ed.</span>, <span class="yellow">LPC</span></h3>
+                <h4 style="font-size:2.5em" class="red" id="successModal">Owner, Lift Yoga &amp; Therapy</h4>
+              </div>
+          
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+              <div class="cocoen" style="margin:5px">
+                  <img class="before" style="img-responsive center-block" src="images/img/before.jpg" alt="">
+                  <img class="after" style="img-responsive center-block" src="images/img/after.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-default" data-dismiss="modal"><span style="font-size:0.75em;">Close</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
   
   <!-- Navbar Hidden/Fixed -->
   <!-- Navigation -->
@@ -132,6 +168,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
       </div>
       <!-- /.container-fluid -->
   </nav>
+
 
   <!-- Header -->
   <!-- Header Desktop -->
@@ -256,32 +293,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
         </div>
         <div class="about_top section-head">
           <h1><span class="pink">Te'a Metro</span></h1>
-          <h3 class="section-sub"><span class="red">Your professional image partner for special occasions, or everyday</span></h3>
+          <h3 class="section-sub"><span class="red">Your professional image partner for special occasions, or everyday.</span></h3>
           <p class="section-body text-justify">I am a professional Image Consultant. I've worked with some of the top names in fashion. I am certified through the <span class="red">London Image Institute</span>, specializing in makeup, wardrobe and seasonal styles.</br> </br>I'm an expert when it comes to selecting the perfect colors for each and every one of my clients. I want to be your personal guide on a journey of beauty &amp; self discovery. Theres an old addiage that says, “dress for the job you want, not the job you have”. I say, “Dress for the life you want, the job, success, and freedom you deserve will follow."</p>
         </div>
 
         <div class="about_bottom">
           <div class="col-md-6 about_left">
             <h3 class="section-sub"><span class="red">Credentials</span></h3>
-            <p class="section-body off-black">Certified at the <span class="red">London Image Institute</span>.</br></br>Plus, over 10 years of experience, working closely with fashion leaders such as <span class="red">Giannie Versace</span> and <span class="red">Anne Fontaine</span>.</p>
+            <p class="section-body off-black">Certified at the <span class="red">London Image Institute</span>.</br></br></p>
           
-            <a href="#" class="btn1 btn-1 btn-1b">Learn more</a>
+
           </div>
-          <div class="col-md-6 about_right">
-            <ul class="cred-img">
-              <li class="element-margin" style="padding-top:25px;">
-                <a href="http://www.londonimageinstitute.com" alt="Te'a was certified at the London Image Institute">
-                  <img src="images/LII_homepage_logo2.png" class="img-responsive center-block"  alt="London Image Institute Logo"/>
-                </a>
-              </li>
-            </ul>
+          <div class="col-md-6 about_right cred-img">
+            <a href="http://www.londonimageinstitute.com" alt="Te'a was certified at the London Image Institute">
+              <img src="images/london-img-logo.png" class="img-responsive center-block"  alt="London Image Institute Logo"/>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+          <div class="col-md-12 about_bottom text-center element-margin">
+            <p class="section-body off-black"><span class="red">Plus</span>, over 10 years of experience, working closely with fashion leaders such as <span class="red">Giannie Versace</span> and <span class="red">Anne Fontaine</span>.</p>
+          </div>
+          <!-- Success Modal Button -->
+          <div class="center-block text-center">
+            <a id="success-button" href="#successStories" data-target="#successStories" alt="A Client Success Story" class="btn1 btn-1 btn-1b">A Client Success Story</a>
             
           </div>
-
-          <div class="clearfix"> </div>
-        </div>
       </div>
     </div>
+   </div>
+   
+     
    </div> 
   </section>
   <!-- End About -->
@@ -291,7 +332,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
 
       <div class="about_top section-head">
         <h1 class="red">The <span class="pink">Menu</span></h1>
-        <h3 class="section-sub">Indulge yourself and light the way to the <span class="red">Elite</span> lifestyle</h3>
+        <h3 class="section-sub">Indulge yourself and light the way to the <span class="red">Elite</span> lifestyle.</h3>
       </div>
       <div class="container-fluid">
         <div class="row services-set text-center">
@@ -338,7 +379,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
       <div class="container">
         <div class="about_top section-head">
           <h1 class="yellow red-shadow">Elite Packages</h1>
-          <h3 class="section-sub white">5 professionally curated style upgrades, for every type of modern lady</h3>
+          <h3 class="section-sub white">5 professionally curated style upgrades, for every type of modern lady. Packages starting at $150.00.</h3>
         </div>
       </div>
       <div class="container-fluid packages-container">
@@ -476,11 +517,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/ -->
             </ul>
         </div>
 
-        <p class="copyright text-center">&copy; 2016 <span class="pink">Elite Image &amp; Style</span>. Brand Conceived and Developed by <span class="red">Te'a Metro</span>. All rights reserved.</br>Graphic &amp; Web Design by Colby Jarrell | ColbyJCreative.com.</br>Header Image by Maksim Šmeljov and licensed through Adobe Stock</br>All other images licensed through Shutterstock.com</p>
+        <p class="copyright text-center">&copy; 2016 <span class="pink">Elite Image &amp; Style</span>. Brand Conceived and Developed by <span class="red">Te'a Metro</span>. All rights reserved.</br>Graphic &amp; Web Design by Colby Jarrell | ColbyJCreative.com.</br>Header Image by Maksim Šmeljov and licensed through Adobe Stock | All other images licensed through Shutterstock.com</br>Blessed Day font licensed through Billy Argel Fonts</p>
   </footer>
   <a href="#" id="toTop" class="slideUp" style="display: block;">
     <span id="toTopHover" style="opacity: 1;"> </span>
   </a>
-  
+  <script type="text/javascript" src="js/jquery.mobile-events.min.js"></script>
+  <script type="text/javascript" src="js/cocoen.min.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
 </body>
+
 </html>
