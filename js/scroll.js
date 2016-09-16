@@ -1,10 +1,4 @@
-// Before After Image Slider
-// $(document).ready(function(){
-//   $('#modal-body').append({
 
-//   })
-//   $('.cocoen').cocoen();
-// });
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
